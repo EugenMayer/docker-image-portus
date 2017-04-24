@@ -1,6 +1,6 @@
 FROM library/ruby:2.3.1
 MAINTAINER Eugen Mayer <eugen.mayer@kontextwork.de>
-ENV CATALOG_CRON="5.minutes"
+ENV CATALOG_CRON="5"
 ENV COMPOSE=1
 EXPOSE 3000
 
